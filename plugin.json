@@ -1,0 +1,24 @@
+{
+    "name": "Disqus",
+	"version": "1.2.2",
+	"description": "Adds Disqus comments to any theme.",
+	"demo": "http://koken.me",
+	"author": {
+		"name": "Koken",
+		"link": "https://store.koken.me/authors/koken"
+	},
+
+	"koken_version_required": "0.10.0-beta.1",
+
+	"data": {
+		"shortname": {
+			"label": "Disqus Shortname",
+			"info": "You can find your shortname by signing-in to disqus.com and clicking 'Dashboard' at the top. Shortnames are displayed in parenthesis underneath your registered sites in the left column.",
+			"type": "string",
+			"validation": {
+				"type": "not_empty",
+				"error_message": "Please enter your Disqus shortname."
+			}
+		}
+	}
+}
